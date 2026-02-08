@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
-import { Hero } from './Hero';
-import { SkillCard } from './SkillCard';
-import { AISkillCard } from './AISkillCard';
-import { StatsChart } from './StatsChart';
-import { PersonalityChart } from './/PersonalityChart';
-import { LanguageChart } from './LanguageChart';
-import { ChatWidget } from './ChatWidget';
-import { ProjectCard } from './ProjectCard';
-import { ArticleCard } from './ArticleCard'; 
-import { ExperienceCard } from './ExperienceCard';
-import { ContactForm } from './ContactForm';
-import { SKILL_CATEGORIES, PROJECTS, ARTICLES, EXPERIENCES };
-import { Github, Twitter, Linkedin, Mail, ArrowRight, Briefcase, Zap, Cpu, Clock } from 'lucide-react';
+
+import Hero from './Hero';
+import SkillCard from './SkillCard';
+import AISkillCard from './AISkillCard';
+import StatsChart from './StatsChart';
+import PersonalityChart from './PersonalityChart';
+import LanguageChart from './LanguageChart';
+import ChatWidget from './ChatWidget';
+import ProjectCard from './ProjectCard';
+import ArticleCard from './ArticleCard';
+import ExperienceCard from './ExperienceCard';
+import ContactForm from './ContactForm';
+
+import {
+  SKILL_CATEGORIES,
+  PROJECTS,
+  ARTICLES,
+  EXPERIENCES
+} from './constants';
 
 const App: React.FC = () => {
   const [activeProjectIndex, setActiveProjectIndex] = useState<number | null>(null);
