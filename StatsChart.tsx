@@ -1,7 +1,7 @@
 import React from 'react';
 import { ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Tooltip } from 'recharts';
-import { SKILL_CATEGORIES, getLevelValue } from '../constants';
-import { SkillLevel } from '../types';
+import { SKILL_CATEGORIES, getLevelValue } from './constants';
+import { SkillLevel } from './types';
 
 export const StatsChart: React.FC = () => {
   // Aggregate data for the chart: Average level per category
