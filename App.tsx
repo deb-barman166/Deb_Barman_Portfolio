@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Hero } from './components/Hero';
-import { SkillCard } from './components/SkillCard';
-import { AISkillCard } from './components/AISkillCard';
-import { StatsChart } from './components/StatsChart';
-import { PersonalityChart } from './components/PersonalityChart';
-import { LanguageChart } from './components/LanguageChart';
-import { ChatWidget } from './components/ChatWidget';
-import { ProjectCard } from './components/ProjectCard';
-import { ArticleCard } from './components/ArticleCard'; 
-import { ExperienceCard } from './components/ExperienceCard';
-import { ContactForm } from './components/ContactForm';
+import { Hero } from './Hero';
+import { SkillCard } from './SkillCard';
+import { AISkillCard } from './AISkillCard';
+import { StatsChart } from './StatsChart';
+import { PersonalityChart } from './/PersonalityChart';
+import { LanguageChart } from './LanguageChart';
+import { ChatWidget } from './ChatWidget';
+import { ProjectCard } from './ProjectCard';
+import { ArticleCard } from './ArticleCard'; 
+import { ExperienceCard } from './ExperienceCard';
+import { ContactForm } from './ContactForm';
 import { SKILL_CATEGORIES, PROJECTS, ARTICLES, EXPERIENCES } from './constants';
 import { Github, Twitter, Linkedin, Mail, ArrowRight, Briefcase, Zap, Cpu, Clock } from 'lucide-react';
 
